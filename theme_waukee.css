@@ -1,0 +1,86 @@
+
+ /* #00ACE9; /* blue */
+ /* #D43F3F; /* red */
+ /* #6A9A1F; /* green */
+ /* #F6F6E8; /* white */
+ /* #404040; /* grey */
+ /* #b564d4; /* light purple */
+ /* #7c07a9; /* purple */
+ /* #50026e; /* Dark purple */
+ /* #f0fc00; /* gold */
+
+/* text */
+
+#header { /* Hand and Foot Banner */
+   	background-color: #f0fc00; /* gold */
+  	color: #50026e; /* Dark purple */
+	font-family: Lobster;
+}
+
+.valid_input {
+	color: #F6F6E8; /* white */
+}
+.invalid_input {
+	color: #D43F3F; /* red */
+}
+
+/* box-shadows */
+#header,
+table, 
+.radio-toolbar label,
+.radio-toolbar input[type="radio"]:checked + label,
+#wrapperDiv
+{
+	box-shadow: 3px 3px 3px black;
+}
+
+
+body
+{
+	background-color: #50026e; /* Dark purple */
+}
+
+input {
+    color: #F6F6E8; /* white */
+	background-color: #7c07a9; /* purple */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+table {
+	color: #F6F6E8; /* white */
+	border: 1px #f0fc00 solid; /* gold */
+}
+
+.radio-toolbar {
+	    color: #F6F6E8; /* white */
+}
+
+
+ /* #b564d4; /* light purple */
+ /* #7c07a9; /* purple */
+ /* #50026e; /* Dark purple */
+.radio-toolbar label {
+    background-color: #7c07a9; /* purple */
+    border-radius: 6px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #b564d4; /* light purple */
+    border: 1px blue solid;
+}
+
+#wrapperDiv {
+    border-left: 1px solid #f0fc00; /* gold */
+    border-right: 1px solid #f0fc00; /* gold */
+    border-bottom: 1px solid #f0fc00; /* gold */
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.totals {
+    text-align: left;
+}
+
+.colTitles {
+    text-align: right;
+}

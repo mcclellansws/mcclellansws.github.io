@@ -1,0 +1,63 @@
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+#header {
+    position: relative;
+    top: -10px;
+    height: 40px;
+    width: 652px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sixthPlayerHide {
+	display:none;
+}
+
+.radio-toolbar {
+    margin-bottom: 4px;
+}
+
+.radio-toolbar input[type="radio"] {
+    display:none; /* hide the round buttons */
+    float:none;
+}
+
+.radio-toolbar label {
+	display:inline-block;
+    padding:4px 11px;
+    border-radius: 6px;
+}
+
+#wrapperDiv {
+
+    position:relative;
+    top: -10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    width: 630px;
+}
+
+.totals {
+    text-align: left;
+}
+
+.colTitles {
+    text-align: right;
+}

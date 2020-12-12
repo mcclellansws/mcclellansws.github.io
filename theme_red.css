@@ -1,0 +1,74 @@
+/* 
+ * #00ACE9 blue
+ * #D43F3F red
+ * #6A9A1F green
+ * #F6F6E8 white
+ * #404040 grey
+ */
+
+/* text */
+h1,
+input
+{
+	color: #F6F6E8;
+}
+
+/* box-shadows */
+#header,
+table, 
+.radio-toolbar label,
+.radio-toolbar input[type="radio"]:checked + label,
+#wrapperDiv
+{
+	box-shadow: 3px 3px 3px #404040;
+}
+
+#header {
+    background-color: #831618;
+}
+
+body,
+#roundArea,
+input
+{
+	background-color: #404040;
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+table {
+    border: 1px #ED1C24 solid;
+}
+
+
+.radio-toolbar label {
+    background-color:#ddd;
+    border-radius: 6px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#bbb;
+    border: 1px blue solid;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapperDiv {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.totals {
+    text-align: left;
+}
+
+.colTitles {
+    text-align: right;
+}
