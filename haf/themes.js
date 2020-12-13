@@ -61,7 +61,6 @@ function setTheme() {
 		// secure: true,
 		'max-age': maxage
 	}
-	console.log(options)
 	setCookie(THEME_KEY, document.getElementById('selectTheme').value, options);
 	self.location = self.location;	// simple trick to reload the current document
 }
