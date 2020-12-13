@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hand and Foot</title>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/cs'>
+    <link rel='stylesheet' type='text/css' href="stylesheet.css" />
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type='text/javascript' src='script.js'></script>
+    <script type='text/javascript' src='themes.js'></script>
+</head>
+
+<body>
+    <div id="header" onclick="about()">
+        <h1>Hand and Foot</h1>
+    </div>
+    <div id="wrapperDiv">
+        <div id="setupDiv">
+            <div id="buttonsDiv">
+                <div class="radio-toolbar">
+                    <table>
+                        <tr>
+                            <th>Number of Players:</th>
+                            <td>
+                                <input type="radio" name="numPlayersRB" id="fourPlayers" value="4"
+                                    onclick="numPlayers.update()" checked>
+                                <label for="fourPlayers">4</label>
+                                <input type="radio" name="numPlayersRB" id="sixPlayers" value="6"
+                                    onclick="numPlayers.update() ">
+                                <label for="sixPlayers">6</label>
+                            </td>
+                            <th> Theme:</th>
+                            <td>
+                                <select id=selectTheme onchange="setTheme();">
+                                    <option value="theme_default">Change Theme</option>
+                                    <option value="theme_red">Red/experimental</option>
+                                    <option value="theme_waukee">Waukee</option>
+                                    <option value="theme_default">Default</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input type="button" value="Reset All" onclick="clearAll(true)"
+                                    title="Deletes all saved data. Clears both scores and player.">
+                                <input type="button" value="Clear Scores" onclick="clearScores(true)"
+                                    title="Delete all scores but keep the same players.">
+                                <input type="button" value="Clear Names" onclick="seats.clearNames(true)"
+                                    title="Delete just the player names.">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input type="button" value="Random Start" onclick="seats.randomStart(true)"
+                                    title="Pick a new person to start, keeping the same teammates and seat order.">
+                                <input type="button" value="Random Seats" onclick="seats.randomSeats(true)"
+                                    title="Randomly assign players to teams.">
+                                <input type="button" value="Rules" onclick="window.location='rules.html'"
+                                    title="How to play Hand and Foot">
+                                <input type="button" value="About" onclick="about()" title="Time">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <table>
+                <tr>
+                    <th class="colTitles">Setup:</th>
+                    <th> Team 1</th>
+                    <th> Team 2</th>
+                    <th class="sixthPlayer"> Team 3</th>
+                </tr>
+                <tr>
+                    <th class="colTitles">Players:</th>
+                    <th><input type="text" id="seat_0_0" onchange="seats.updateNames()"><br>
+                        <input type="text" id="seat_0_1" onchange="seats.updateNames()">
+                    </th>
+                    <th><input type="text" id="seat_1_0" onchange="seats.updateNames()"><br>
+                        <input type="text" id="seat_1_1" onchange="seats.updateNames()">
+                    </th>
+                    <th class="sixthPlayer"><input type="text" id="seat_2_0" onchange="seats.updateNames()"><br>
+                        <input type="text" id="seat_2_1" onchange="seats.updateNames()">
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div id="roundsArea">
+        </div>
+    </div>
+    <div id="footer" onclick="about()">
+        <script type="text/javascript">
+            document.write(copyright());
+        </script>
+        <span class="valid_input">&nbsp;</span><span class="invalid_input">&nbsp;</span>
+    </div>
+</body>
+
+</html>
