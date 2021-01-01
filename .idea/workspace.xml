@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b09a641-008f-482c-a3fc-d37faff0aab9" name="Default Changelist" comment="" />
+    <list default="true" id="7b09a641-008f-482c-a3fc-d37faff0aab9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sm16164.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templatemo_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templatemo_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_orig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templatemo_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/templatemo_script.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +21,9 @@
   </component>
   <component name="ProjectId" id="1mOLbZ4kp1JGUvHjqBu7Mo7lsHw" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
